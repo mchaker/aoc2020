@@ -9,7 +9,6 @@ import (
 
 func main() {
 	inputFilename := "input.txt"
-	var inputs []int
 
 	file, err := os.Open(inputFilename)
 	if err != nil {
