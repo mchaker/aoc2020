@@ -29,9 +29,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	var inputs2 []int
-	copy(inputs2, inputs)
-
 	for i := range inputs {
 		for j := range inputs {
 			if inputs[i]+inputs[j] == 2020 {
